@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id = "index">
+
+    <! --Heading Part -->
+    <div id = "heading">
+        <h1 id = "shopName">Shop-X Online Shop</h1>
+    </div>
+
+    <! --Product List Part -->
+
+    <div id = "products">
+        <div class = "product">
+            <img src="/images/product-1.png">
+            <h4>Description</h4>
+            <h4>Product Price</h4>
+            <button class = "btn">Add To Cart</button>
+            <p style="display:none"></p>
+        </div>
+        <div class = "product">
+            <img src="/images/product-1.png">
+            <h4>Description</h4>
+            <h4>Product Price</h4>
+            <button class = "btn">Add To Cart</button>
+            <p style="display:none"></p>
+        </div>
+        <div class = "product">
+            <img src="/images/product-1.png">
+            <h4>Description</h4>
+            <h4>Product Price</h4>
+            <button class = "btn">Add To Cart</button>
+            <p style="display:none"></p>
+        </div>
+        <div class = "product">
+            <img src="/images/product-1.png">
+            <h4>Description</h4>
+            <h4>Product Price</h4>
+            <button class = "btn">Add To Cart</button>
+            <p style="display:none"></p>
+        </div>
+        
+    </div>
+
+    <! --Cart Part -->
+
+    <div id = "cart">
+        <h1 class = "cartHead">Cart</h1>
+        <div ID = "cartTableDiv">
+            <table id = "cartTable">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                </tr>
+            </table>
+        </div>
+        
+        <table id = "tot_table">
+            <tr>
+                <th>Items</th>
+                <th>Total Price</th>
+            </tr>
+            <tr>
+                <td id = "tot_item">
+                    <p>x0</p>
+                </td>
+                <td id = "tot_price">
+                    00.00
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class = "last">
+        <button class = "btn" id = "Empty Cart">Empty Cart</button>
+        <button class = "btn">Checkout</button>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
